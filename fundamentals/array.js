@@ -1,4 +1,4 @@
-// Reference data types: objects, arrays, functions 
+// Reference data types: arrays, objects, functions 
 
 // array = data structure containing a list of elements (integer or string)
 // syntax:
@@ -24,3 +24,8 @@ console.log(numbers.sort());
 // add element to array using push() function
 numbers.push(2);
 console.log(numbers);
+
+// array with different data types
+let mix = [];
+mix = ['one', 1, 'two', 2, 'three', 3];
+console.log(mix);
