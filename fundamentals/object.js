@@ -19,3 +19,18 @@ console.log(animal.lives);
 console.log(animal.type);
 console.log(animal.color);
 console.log(animal.age);
+
+let alex = {
+    age: 27,
+    eyeColor: 'blue',
+    occupation: 'web developer',
+    hobbies: ['travel', 'diving', 'exercising']
+};
+
+console.log(alex.age);
+console.log(alex.eyeColor);
+console.log(alex.occupation);
+console.log(alex.hobbies[0]);
+console.log(alex['age']);
+console.log(alex.hobbies[1]);
+console.log(alex.hobbies[2]);
