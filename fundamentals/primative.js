@@ -1,4 +1,4 @@
-// primative data types: strings, booleans, undefined, numbers, null
+// primative data types: strings, booleans, numbers, undefined, null
 
 // strings = quotation marks
 let name = 'Snoopy';
@@ -9,6 +9,11 @@ console.log(name);
 // boolean = true or false
 let option = true;
 console.log(option);
+
+// number = value and output is a number
+let years;
+years = 7;
+console.log(years);
 
 // undefined = no set value / datatype
 let height;
