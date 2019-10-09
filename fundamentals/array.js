@@ -17,3 +17,10 @@ console.log(numbers[0] + numbers[4]);
 console.log(numbers[1] - numbers[0]);
 console.log(numbers[5] * numbers[2]);
 console.log(numbers[3] / numbers[2]);
+
+// predefined sort() function for elements
+console.log(numbers.sort());
+
+// add element to array using push() function
+numbers.push(2);
+console.log(numbers);
