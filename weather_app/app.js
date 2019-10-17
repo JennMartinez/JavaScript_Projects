@@ -27,4 +27,8 @@ window.addEventListener('load', ()=> {
             });
         });
     } 
+    
+    function setIcons(icon, iconID){
+        const skycons = new skycons({color: 'white'});
+    }
 });
